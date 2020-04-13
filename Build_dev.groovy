@@ -8,7 +8,7 @@ node{
 
 def loadClass(def className){
     def rootDir = pwd()
-    def instance = load "${rootDir}@script/src/${className}.groovy"
+    def instance = load "${rootDir}@script/${className}.groovy"
     instance.setup(this)
     return instance
 }
