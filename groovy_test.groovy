@@ -1,4 +1,4 @@
-class Hoge{
+class groovy_test{
     def script
 
     def setup(def script){
@@ -6,8 +6,8 @@ class Hoge{
     }
     
     def method(){
-        script.echo "Hoge"
+        script.echo "***successful***"
     }
 }
 
-return new Hoge()
+return new groovy_test()
